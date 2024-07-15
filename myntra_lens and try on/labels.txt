@@ -1,0 +1,10 @@
+sunglass,
+hat,
+jacket,
+shirt,
+pants,
+shorts,
+skirt,
+dress,
+bag,
+shoe
