@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Challenges</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fashion Challenges</h1>
+        <div class="challenges">
+            <div class="challenge" id="wednesdayChallenge">
+                <h2>On Wednesdays We Wear Pink</h2>
+                <input type="file" id="wednesdayFileInput" accept="image/*">
+                <input type="text" id="wednesdayLinkInput" placeholder="Paste image URL">
+                <button onclick="uploadPicture('wednesday')">Upload Picture</button>
+                <button onclick="uploadLink('wednesday')">Upload Link</button>
+                <div id="wednesdayUploads" class="uploads"></div>
+            </div>
+            <div class="challenge" id="metCalmChallenge">
+                <h2>The Met Calm</h2>
+                <input type="file" id="metCalmFileInput" accept="image/*">
+                <input type="text" id="metCalmLinkInput" placeholder="Paste image URL">
+                <button onclick="uploadPicture('metCalm')">Upload Picture</button>
+                <button onclick="uploadLink('metCalm')">Upload Link</button>
+                <div id="metCalmUploads" class="uploads"></div>
+            </div>
+        </div>
+        <div class="wallet">
+            <h2>Your Wallet</h2>
+            <p>Coins: <span id="coinBalance">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+

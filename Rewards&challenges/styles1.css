@@ -1,0 +1,332 @@
+/* desktop 
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff4081, #ff9800);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #ff4081;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+.challenges {
+    margin-top: 20px;
+}
+
+.challenge {
+    background: linear-gradient(135deg, #ffccbc, #ff80ab);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.challenge:hover {
+    background: linear-gradient(135deg, #ffb74d, #ff4081);
+}
+
+.challenge h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.challenge h2:hover {
+    transform: scale(1.05);
+}
+
+input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #e91e63;
+    transform: scale(1.05);
+}
+
+.uploads {
+    margin-top: 20px;
+}
+
+.upload {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.upload img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.upload img:hover {
+    transform: scale(1.1);
+}
+
+.wallet {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wallet h2 {
+    font-size: 2em;
+    color: #ff4081;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.wallet h2:hover {
+    transform: scale(1.1);
+}
+
+.wallet p {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.comment-section {
+    margin-top: 10px;
+}
+
+.comment {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.comment input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.comment input:focus {
+    border-color: #ff4081;
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff4081, #ff9800);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #ff4081;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+.challenges {
+    margin-top: 20px;
+}
+
+.challenge {
+    background: linear-gradient(135deg, #ffccbc, #ff80ab);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.challenge:hover {
+    background: linear-gradient(135deg, #ffb74d, #ff4081);
+}
+
+.challenge h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.challenge h2:hover {
+    transform: scale(1.05);
+}
+
+input[type="file"], input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: calc(100% - 22px); /* Adjust width to fit inside the container */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]:focus {
+    border-color: #ff4081;
+}
+
+button {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #e91e63;
+    transform: scale(1.05);
+}
+
+.uploads {
+    margin-top: 20px;
+}
+
+.upload {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.upload img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.upload img:hover {
+    transform: scale(1.1);
+}
+
+.wallet {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wallet h2 {
+    font-size: 2em;
+    color: #ff4081;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.wallet h2:hover {
+    transform: scale(1.1);
+}
+
+.wallet p {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.comment-section {
+    margin-top: 10px;
+}
+
+.comment {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.comment input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.comment input:focus {
+    border-color: #ff4081;
+}
+
+/* Open Link Div Styling */
+.open-link {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ff4081;
+    border-radius: 5px;
+    background-color: rgba(255, 64, 129, 0.1);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.open-link a {
+    color: #ff4081;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.open-link a:hover {
+    color: #e91e63;
+}
+
+.open-link:hover {
+    background-color: rgba(255, 64, 129, 0.2);
+    border-color: #e91e63;
+}
+
+
+
+
