@@ -1,0 +1,232 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container for the whole chat application */
+.biglist {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    position: relative;
+}
+
+/* User list styles */
+.userpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(45deg, #ff6f61, #ff3f6c, #ffa751);
+    width:1000px;
+}
+
+.userlist {
+    width: 1000px;
+    max-width: 1000px;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+    padding: 15px;
+    background: #ffe6e9;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.userlistitem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #fff5f7;
+}
+
+.userlistitem:hover {
+    background-color: #ffb3ba;
+    transform: scale(1.02);
+}
+
+.userlistitem img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #ff3f6c;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+}
+
+.user p {
+    margin: 0;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Chat header */
+.header3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff3f6c;
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #ffa751;
+}
+
+.header3 h3 {
+    margin: 0;
+}
+
+.bigb {
+    background-color: #ffffff;
+    color: #ff3f6c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bigb:hover {
+    background-color: #ffe6e9;
+    color: #ff3f6c;
+}
+
+/* Messages section */
+.messagediv {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #fff3e0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 15px 15px;
+}
+
+.messagediv .textleft,
+.messagediv .textright {
+    margin-bottom: 15px;
+}
+
+.textleft {
+    align-self: flex-start;
+}
+
+.textright {
+    align-self: flex-end;
+}
+
+.bgblue {
+    background-color: #ff3f6c;
+    color: #ffffff;
+}
+
+.bggray {
+    background-color: #ffb3ba;
+    color: #000000;
+}
+
+.rounded-lg {
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-xs {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #888888;
+}
+
+/* Message input form */
+.themessfrm {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 15px 15px;
+}
+
+.themessfrm input[type="text"] {
+    flex-grow: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    margin-right: 10px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.themessfrm input[type="text"]:focus {
+    border-color: #ff3f6c;
+    box-shadow: 0 0 5px rgba(255, 63, 108, 0.5);
+}
+
+.themessfrm button {
+    background-color: #ff3f6c;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.themessfrm button:hover {
+    background-color: #d32f5b;
+    transform: scale(1.05);
+}
+
+.themessfrm button svg {
+    fill: #ffffff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .biglist {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .userlist {
+        max-width: 100%;
+        border-right: none;
+    }
+
+    .header3 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .messagediv {
+        padding: 15px;
+    }
+}
+
+

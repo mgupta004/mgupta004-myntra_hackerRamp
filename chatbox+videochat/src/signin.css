@@ -1,0 +1,19 @@
+.signinpage{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;   
+}
+.frm input{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
