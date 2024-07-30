@@ -1,0 +1,15 @@
+Question: What is the price of this pant?
+Answer: 3400/- 
+
+Question: Where can I buy from in store?
+Answer: GIP Noida and DLF Gurgaon.
+
+Question: What is the sizes available?
+Answer: 24, 26, 28
+
+Question: When do your new lot arrives?
+Answer: Every week on Sunday.
+
+This is a very popular hot selling product.
+
+This product can be returned within 10 days.

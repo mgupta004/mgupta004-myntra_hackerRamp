@@ -1,0 +1,8 @@
+
+openai_api_key: '<your openai API key>'
+
+number_of_similar_images: 4
+
+# this is for ask be feature i.e text generative AI (aka ChatGPT)
+custom_params:
+  model: 'gpt-3.5-turbo-0125'

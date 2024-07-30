@@ -1,0 +1,13 @@
+fastapi
+requests
+ultralytics
+numpy
+timm
+torch
+openai
+Pillow
+scikit-learn
+gtts
+moviepy
+
+
