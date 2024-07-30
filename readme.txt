@@ -10,13 +10,20 @@ install all required packages
 -----------------------------
 pip install -r ./requirement.txt
 
+other system files/lib
+----------------------
+for mac:
+brew install ffmpeg
+for unix:
+sudo apt update
+sudo apt install ffmpeg
 
-Get additional files
---------------------
+Get aditional files
+----------------------------------------
 1. embedding_images directory
 
-	1. cd myntra_lens_AI_tryon
-	2. unzip embedding_images.zip to embedding_images directory containing similar files
+	1. cd app
+	2. unzip embedding_images.zip into embedding_images directory containing similar files
 
 2. YOLO8 trained model
 	1. download best.pt.zip from https://github.com/mgupta004/mgupta004-myntra_hackerRamp_yolo8.git
@@ -36,7 +43,9 @@ right click and open the index.html in any browser
 Configuration of the system
 ---------------------------
 
-	1. Create an openai API token
+0. Create an openai API token
 
-	2. open ./config.yaml file and update the "openai_api_key" with your openai API key
+1. open ./config.yaml file and update the "openai_api_key" with your openai API key
+
+
 
